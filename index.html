@@ -177,7 +177,7 @@
         }
         @media (max-width: 768px) {
             .hamburger { display: flex; }
-            .nav-menu { position: fixed; top: 0; right: -100%; width: 75%; max-width: 320px; height: 100vh; background: var(--color-menu); flex-direction: column; justify-content: center; align-items: center; gap: 40px; font-size: 1rem; box-shadow: -10px 0 30px rgba(0,0,0,0.1); transition: var(--transition); z-index: 1000; }
+            .nav-menu { position: fixed; top: 72px; right: -100%; width: 75%; max-width: 320px; height: calc(100vh - 72px); background: var(--color-menu); flex-direction: column; justify-content: center; align-items: center; gap: 40px; font-size: 1rem; box-shadow: -10px 0 30px rgba(0,0,0,0.1); transition: var(--transition); z-index: 1000; }
             .nav-menu.active { right: 0; }
             .hamburger.active span:nth-child(1) { transform: translateY(7.5px) rotate(45deg); }
             .hamburger.active span:nth-child(2) { opacity: 0; }
